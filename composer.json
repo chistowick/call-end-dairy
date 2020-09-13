@@ -1,5 +1,5 @@
 {
-    "name": "chistowick/calendar",
+    "name": "chistowick/call-end-dairy",
     "description": "This package is designed to easily and quickly create a calendar table for any month. Just create an instance of Chistowick\\Calendar(int $year, int $month) and call the rendering () method. By default, the current month will be drawn.",
     "type": "library",
     "keywords": [
