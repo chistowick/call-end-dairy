@@ -42,7 +42,7 @@ class Week
             // Создаем дни с необходимыми классами
             $this->days[] = (new Day($day))
                 ->addClass(self::$weekDaysName[$wday])
-                ->addClass(sprintf("%02d-%02d", $month, $day));
+                ->addClass(sprintf("m%02d-d%02d", $month, $day));
 
             // Увеличиваем дату и порядковый номер дня недели
             $day++;
